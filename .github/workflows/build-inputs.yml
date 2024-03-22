@@ -37,15 +37,7 @@ on:
         - "default"
         - "invertedT"
         - "vi"
-      layers:
-        description: 'layers'
-        required: false
-        default: 'default'
-        type: choice
-        options:
-        - "default"
-        - "flip"
-      layers:
+      clipboard:
         description: 'clipboard'
         required: false
         default: 'default'
@@ -55,6 +47,14 @@ on:
         - "fun"
         - "mac"
         - "win"
+      layers:
+        description: 'layers'
+        required: false
+        default: 'default'
+        type: choice
+        options:
+        - "default"
+        - "flip"
       mapping:
         description: 'mapping'
         required: false
